@@ -1,0 +1,14 @@
+BLP Games - GitHub Pages upload
+
+Upload ALL files in this folder to the ROOT of your GitHub repository:
+- index.html
+- play.html
+- style.css
+- app.js
+- games.js
+- space-clicker.html
+- games/ (optional copy retained for organization)
+
+The Space Clicker player now loads space-clicker.html from the repository root, which avoids the missing nested-file 404 shown in GitHub Pages.
+
+After uploading, wait about 1 minute and refresh the BLP Games page. If GitHub Pages cached the old version, use Ctrl+Shift+R.
