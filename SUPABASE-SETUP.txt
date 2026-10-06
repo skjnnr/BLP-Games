@@ -1,0 +1,19 @@
+BLP GAMES - SUPABASE SETUP
+
+Your project URL and publishable key are already connected in supabase-config.js.
+
+1. Open your Supabase project.
+2. Open SQL Editor -> New query.
+3. Copy everything from supabase-setup.sql, paste it, and click Run.
+4. Go to Authentication -> URL Configuration.
+5. Set Site URL to your GitHub Pages BLP Games URL.
+   Example: https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
+6. Under Redirect URLs, add that same GitHub Pages URL followed by * if Supabase allows wildcard redirects.
+7. Authentication -> Providers -> Email should be enabled.
+8. If Confirm email is enabled, new users must confirm the email Supabase sends before logging in.
+
+UPLOAD TO GITHUB
+Upload/replace ALL files in this blp-games folder. Keep supabase-config.js, auth.js, and supabase-setup.sql in the repository.
+
+SECURITY
+The publishable key is intended for browser apps. Never put a service_role key or Supabase secret key in these files.
